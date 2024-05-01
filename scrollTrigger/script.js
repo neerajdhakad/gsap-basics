@@ -7,7 +7,7 @@ gsap.to("#page1 #box",{
     y:20,
     rotate:360,
     borderRadius:"100%",
-})
+}) 
 gsap.from("#page2 #box",{
     x:800,
     opacity:0,
