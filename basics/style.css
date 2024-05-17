@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+#box{
+    background-color: crimson;
+    height: 300px;
+    width: 300px;
+}
+.circle{
+    background-color: rgb(255, 134, 159);
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+#box1{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+}
+#box2{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+}
+#box3{
+    background-color: indigo;
+    height: 300px;
+    width: 300px;
+}
+#intro{
+    color: white;
+    font-size: 100px;
+}
+#fromY{
+    font-size: 60px;
+}

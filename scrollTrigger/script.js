@@ -14,12 +14,16 @@ gsap.from("#page2 #box",{
     duration:2,
     delay:1,
     borderRadius:"100%",
+    // scrollTrigger:"#page2 #box", -- just to apply ST , upr-upr se
+    // Advance
     scrollTrigger:{
         trigger:"#page2 #box",
         scroller:"body",
         markers:true,
-        scrub:2 ,// makes the animation smooth
-        // pin:true
+        start:"top 60%",
+        // scrub -> true (It can be a boolean value)
+        scrub:2 ,// makes the animation smooth and It makes the animation between scroll-start and scroll-end , usi k beech m chlta h or khtm hota h
+        // pin:true // while scrolling element vhi par ruk gya
     }
 })
 gsap.from("#page3 #box",{
