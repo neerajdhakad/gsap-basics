@@ -1,0 +1,18 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1722648404131-a69c35a706fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* To Cover the whole image */
+    background-size: cover; 
+    /* We can define what exact art we want to see */
+    background-position: center; 
+}

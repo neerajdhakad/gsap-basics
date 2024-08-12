@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+} 
+
+#box {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: burlywood;
+    animation-name: move;
+    animation-delay: 2s;
+    /* Delay before animation starts */
+    animation-duration: 4s;
+    /* Add duration for the animation - It is important to add , without duration it will not work*/
+    animation-fill-mode: backwards;
+    /* Keeps the final state of the animation */
+    animation-iteration-count: 4;
+    /* It will that number of times , you can give 3,4,5 infinite */
+    animation-timing-function: ease-in;
+    animation-direction: reverse; /* alternate - tennis ball */
+}
+
+@keyframes move {
+    0% {
+        left: 0%;
+        top: 0%;
+        opacity: 1;
+    }
+
+    25% {
+        left: 100%;
+        top: 0%;
+        background-color: blue;
+        opacity: 0.5;
+    }
+
+    50% {
+        left: 100%;
+        top: 40%;
+        background-color: rgb(255, 251, 0);
+        opacity: 1;
+    }
+
+    75% {
+        left: 0%;
+        top: 40%;
+        background-color: salmon;
+        opacity: 0.5;
+    }
+
+    100% {
+        left: 0%;
+        top: 0%;
+        background-color: cadetblue;
+        opacity: 1;
+    }
+}
