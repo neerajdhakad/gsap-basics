@@ -17,3 +17,10 @@ body{
     font-size: 70px;
     font-weight: 100;
 }
+/* h1{
+    background-color: red;
+    overflow:hidden;
+} */
+h1 span{
+    display: inline-block
+}
